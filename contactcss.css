@@ -1,0 +1,46 @@
+* {
+    /* PhoneGap boilerplate code START */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    /* PhoneGap boilerplate code END */
+}
+
+body {
+    /* PhoneGap boilerplate code START */
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    /* PhoneGap boilerplate code END */
+
+    /*background:url('img/grass.png') no-repeat center 100% fixed;*/
+    /*background-size: 100% auto;*/
+    background-color:#FFFFFF;
+}
+
+h1 {
+    font-size:56px;
+    font-weight:100;
+    overflow:visible;
+    text-align:left;
+}
+
+.logo {
+	padding-top:20px;
+}
+
+.container{
+  /*background-color: red;*/
+  max-width: 700px;
+}
+
+.form-group.required .control-label:after {
+   content:"*";
+   color:red;
+}
+
+.error{
+  color: red;
+}
+
+#bgimg{
+  max-width: 100%;
+}
